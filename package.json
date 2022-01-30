@@ -1,9 +1,9 @@
 {
   "name": "movieapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ziconinho2017/movieApp/issues"
   },
-  "homepage": "https://github.com/ziconinho2017/movieApp#readme"
+  "homepage": "https://github.com/ziconinho2017/movieApp#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "path": "^0.12.7"
+  }
 }
